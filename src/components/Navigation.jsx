@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { HiSun, HiMoon } from 'react-icons/hi2';
 import { useDarkMode } from '../hooks/useDarkMode';
 import CodeSnippet from './CodeSnippet';
 
@@ -57,7 +58,7 @@ export default function Navigation({ activeSection, onNavigate }) {
                 className="rounded-lg p-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200"
                 aria-label="Toggle dark mode"
               >
-                {darkMode ? '☀️' : '🌙'}
+                {darkMode ? <HiSun className="h-5 w-5" /> : <HiMoon className="h-5 w-5" />}
               </button>
 
               {/* Mobile hamburger */}
@@ -119,7 +120,7 @@ export default function Navigation({ activeSection, onNavigate }) {
 <!-- Dark mode toggle -->
 <button class="text-gray-600 dark:text-gray-300
   hover:bg-gray-100 dark:hover:bg-gray-700">
-  {darkMode ? '☀️' : '🌙'}
+  {darkMode ? <HiSun className="h-5 w-5" /> : <HiMoon className="h-5 w-5" />}
 </button>`}
         explanation={`• "hidden md:flex" hides on mobile and shows as flexbox on medium+ screens (mobile-first approach).
 • "md:hidden" shows the mobile menu only below the md breakpoint.

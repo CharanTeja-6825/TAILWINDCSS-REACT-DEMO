@@ -1,3 +1,4 @@
+import { HiBolt, HiWrenchScrewdriver, HiDevicePhoneMobile } from 'react-icons/hi2';
 import CodeSnippet from './CodeSnippet';
 
 /**
@@ -10,19 +11,19 @@ export default function Cards() {
       title: 'Performance',
       description:
         'Tailwind purges unused CSS at build time, resulting in tiny production bundles.',
-      icon: '⚡',
+      icon: <HiBolt className="h-7 w-7 text-yellow-500" />,
     },
     {
       title: 'Developer Experience',
       description:
         'Utility classes co-locate styling with markup, reducing context switching.',
-      icon: '🛠️',
+      icon: <HiWrenchScrewdriver className="h-7 w-7 text-gray-600 dark:text-gray-300" />,
     },
     {
       title: 'Responsive Design',
       description:
         'Mobile-first breakpoint system makes responsive layouts effortless.',
-      icon: '📱',
+      icon: <HiDevicePhoneMobile className="h-7 w-7 text-brand-500" />,
     },
   ];
 
