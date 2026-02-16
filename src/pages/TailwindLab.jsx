@@ -44,7 +44,7 @@ export default function TailwindLab() {
                 font-extrabold (800)
               </p>
             </div>
-            <pre className="mt-3 rounded bg-gray-900 p-3 text-xs text-green-400 overflow-x-auto">
+            <pre className="mt-3 rounded bg-gray-50 border border-gray-200 p-3 text-xs text-gray-800 overflow-x-auto">
 {`<p class="font-light">font-light (300)</p>
 <p class="font-normal">font-normal (400)</p>
 <p class="font-medium">font-medium (500)</p>
@@ -79,7 +79,7 @@ export default function TailwindLab() {
                 tracking-widest (0.1em)
               </p>
             </div>
-            <pre className="mt-3 rounded bg-gray-900 p-3 text-xs text-green-400 overflow-x-auto">
+            <pre className="mt-3 rounded bg-gray-50 border border-gray-200 p-3 text-xs text-gray-800 overflow-x-auto">
 {`<p class="tracking-tighter">tracking-tighter (-0.05em)</p>
 <p class="tracking-tight">tracking-tight (-0.025em)</p>
 <p class="tracking-normal">tracking-normal (0em)</p>
@@ -117,7 +117,7 @@ export default function TailwindLab() {
                 </p>
               </div>
             </div>
-            <pre className="mt-3 rounded bg-gray-900 p-3 text-xs text-green-400 overflow-x-auto">
+            <pre className="mt-3 rounded bg-gray-50 border border-gray-200 p-3 text-xs text-gray-800 overflow-x-auto">
 {`<p class="leading-tight">leading-tight (1.25)</p>
 <p class="leading-normal">leading-normal (1.5)</p>
 <p class="leading-loose">leading-loose (2)</p>`}
@@ -149,7 +149,7 @@ export default function TailwindLab() {
                 Flex 3
               </div>
             </div>
-            <pre className="rounded bg-gray-900 p-3 text-xs text-green-400 overflow-x-auto">
+            <pre className="rounded bg-gray-50 border border-gray-200 p-3 text-xs text-gray-800 overflow-x-auto">
 {`<div class="flex flex-wrap gap-3">
   <div class="flex-1 min-w-[80px]">Flex 1</div>
   <div class="flex-1 min-w-[80px]">Flex 2</div>
@@ -179,7 +179,7 @@ export default function TailwindLab() {
                 Col 2
               </div>
             </div>
-            <pre className="rounded bg-gray-900 p-3 text-xs text-green-400 overflow-x-auto">
+            <pre className="rounded bg-gray-50 border border-gray-200 p-3 text-xs text-gray-800 overflow-x-auto">
 {`<div class="grid grid-cols-2 gap-3">
   <div class="col-span-2">Full width</div>
   <div>Col 1</div>

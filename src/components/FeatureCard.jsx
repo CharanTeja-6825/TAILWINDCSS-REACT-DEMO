@@ -1,3 +1,4 @@
+import { HiPaintBrush, HiRocketLaunch, HiPuzzlePiece, HiSquares2X2, HiArrowPath, HiMoon } from 'react-icons/hi2';
 import CodeSnippet from './CodeSnippet';
 
 /**
@@ -19,37 +20,37 @@ import CodeSnippet from './CodeSnippet';
 export default function FeatureCard() {
   const features = [
     {
-      icon: '🎨',
+      icon: <HiPaintBrush className="h-7 w-7 text-pink-500" />,
       title: 'Custom Theming',
       description:
         'Extend colors, spacing, and fonts in tailwind.config.js to match any brand.',
     },
     {
-      icon: '🚀',
+      icon: <HiRocketLaunch className="h-7 w-7 text-orange-500" />,
       title: 'Zero Runtime',
       description:
         'Tailwind generates CSS at build time — no JavaScript bundle overhead.',
     },
     {
-      icon: '🔌',
+      icon: <HiPuzzlePiece className="h-7 w-7 text-green-500" />,
       title: 'Plugin Ecosystem',
       description:
         'Add forms, typography, and animation plugins with a single install.',
     },
     {
-      icon: '📐',
+      icon: <HiSquares2X2 className="h-7 w-7 text-blue-500" />,
       title: 'Design Tokens',
       description:
         'Spacing, color, and typography scales keep your UI mathematically consistent.',
     },
     {
-      icon: '♻️',
+      icon: <HiArrowPath className="h-7 w-7 text-teal-500" />,
       title: 'Reusability',
       description:
         'Compose utilities into component classes with @apply or React components.',
     },
     {
-      icon: '🌗',
+      icon: <HiMoon className="h-7 w-7 text-indigo-500" />,
       title: 'Dark Mode',
       description:
         'Toggle between light and dark themes with the dark: variant.',
@@ -101,7 +102,7 @@ export default function FeatureCard() {
     <!-- Icon scales + rotates on parent hover -->
     <div class="group-hover:scale-125 group-hover:rotate-6
       transition-transform duration-300">
-      🎨
+      <Icon />
     </div>
 
     <!-- Title color changes on parent hover -->
